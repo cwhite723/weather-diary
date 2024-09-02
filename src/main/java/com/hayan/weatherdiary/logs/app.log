@@ -1,0 +1,336 @@
+2024-09-02 20:11:57 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.hayan.weatherdiary.service.DiaryServiceTest]: DiaryServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-09-02 20:11:57 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.hayan.weatherdiary.WeatherDiaryApplication for test class com.hayan.weatherdiary.service.DiaryServiceTest
+2024-09-02 20:11:57 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-09-02 20:11:57 [Test worker] INFO  c.h.w.service.DiaryServiceTest - Starting DiaryServiceTest using Java 17.0.7 with PID 13381 (started by chowhite in /Users/chowhite/coding/zerobase/weather_diary)
+2024-09-02 20:11:57 [Test worker] INFO  c.h.w.service.DiaryServiceTest - The following 2 profiles are active: "test", "default"
+2024-09-02 20:11:57 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-02 20:11:57 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 17 ms. Found 2 JPA repository interfaces.
+2024-09-02 20:11:57 [Test worker] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=1eb6d430-0a60-3fb5-b1ae-85f327c07968
+2024-09-02 20:11:57 [Test worker] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-02 20:11:57 [Test worker] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-02 20:11:57 [Test worker] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-09-02 20:11:58 [Test worker] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-02 20:11:58 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-09-02 20:11:58 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@c683cf5
+2024-09-02 20:11:58 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-09-02 20:11:58 [Test worker] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(12, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@20d65767) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@250e8712)
+2024-09-02 20:11:58 [Test worker] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(-9, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@becb93a) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@f60c14e)
+2024-09-02 20:11:58 [Test worker] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(-3, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@1d1fd2aa) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@4c78e00c)
+2024-09-02 20:11:58 [Test worker] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(4003, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@22b3b5d0) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@2b506a79)
+2024-09-02 20:11:58 [Test worker] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(4001, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@48b9773b) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@43ca96a0)
+2024-09-02 20:11:58 [Test worker] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(4002, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@7c68a63c) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@5443086a)
+2024-09-02 20:11:58 [Test worker] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(2004, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@5740ad76) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@40a84ea8)
+2024-09-02 20:11:58 [Test worker] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(2005, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@79c849c7) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@35840ecc)
+2024-09-02 20:11:58 [Test worker] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(2011, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@67fd2e17) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@65a2e14e)
+2024-09-02 20:11:58 [Test worker] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-02 20:11:58 [Test worker] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-02 20:11:59 [Test worker] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-02 20:11:59 [Test worker] INFO  c.h.w.service.DiaryServiceTest - Started DiaryServiceTest in 2.295 seconds (process running for 2.914)
+2024-09-02 20:11:59 [Test worker] INFO  c.h.w.service.DiaryService - Method save() started with date: 2024-10-11, text: 일기 1번
+2024-09-02 20:11:59 [Test worker] INFO  c.h.w.service.WeatherService - Method getWeatherByDate() started with date: 2024-10-11
+2024-09-02 20:11:59 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-02 20:11:59 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-09-02 20:11:59 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-09-02 20:12:20 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.hayan.weatherdiary.service.DiaryServiceTest]: DiaryServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-09-02 20:12:20 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.hayan.weatherdiary.WeatherDiaryApplication for test class com.hayan.weatherdiary.service.DiaryServiceTest
+2024-09-02 20:12:21 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-09-02 20:12:21 [Test worker] INFO  c.h.w.service.DiaryServiceTest - Starting DiaryServiceTest using Java 17.0.7 with PID 13420 (started by chowhite in /Users/chowhite/coding/zerobase/weather_diary)
+2024-09-02 20:12:21 [Test worker] INFO  c.h.w.service.DiaryServiceTest - The following 2 profiles are active: "test", "default"
+2024-09-02 20:12:21 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-02 20:12:21 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18 ms. Found 2 JPA repository interfaces.
+2024-09-02 20:12:21 [Test worker] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=1eb6d430-0a60-3fb5-b1ae-85f327c07968
+2024-09-02 20:12:21 [Test worker] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-02 20:12:21 [Test worker] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-02 20:12:21 [Test worker] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-09-02 20:12:21 [Test worker] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-02 20:12:21 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-09-02 20:12:22 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7acb5200
+2024-09-02 20:12:22 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-09-02 20:12:22 [Test worker] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(12, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@237aba92) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@65b19e5c)
+2024-09-02 20:12:22 [Test worker] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(-9, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@6978a32a) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@55665086)
+2024-09-02 20:12:22 [Test worker] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(-3, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@233ece92) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@4a14f7d7)
+2024-09-02 20:12:22 [Test worker] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(4003, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@66596c4c) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@15ce261)
+2024-09-02 20:12:22 [Test worker] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(4001, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@54c3e686) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@39840986)
+2024-09-02 20:12:22 [Test worker] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(4002, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@141229f6) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@723b8eff)
+2024-09-02 20:12:22 [Test worker] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(2004, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@3987a1e8) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@20d65767)
+2024-09-02 20:12:22 [Test worker] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(2005, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@250e8712) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@becb93a)
+2024-09-02 20:12:22 [Test worker] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(2011, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@f60c14e) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@1d1fd2aa)
+2024-09-02 20:12:22 [Test worker] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-02 20:12:22 [Test worker] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-02 20:12:22 [Test worker] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-02 20:12:23 [Test worker] INFO  c.h.w.service.DiaryServiceTest - Started DiaryServiceTest in 2.144 seconds (process running for 2.681)
+2024-09-02 20:12:23 [Test worker] INFO  c.h.w.service.DiaryService - Method save() started with date: 2024-10-10, text: 일기 1번
+2024-09-02 20:12:23 [Test worker] INFO  c.h.w.service.WeatherService - Method getWeatherByDate() started with date: 2024-10-10
+2024-09-02 20:12:23 [Test worker] INFO  c.h.w.service.DiaryService - Method save() started with date: 2024-10-10, text: 일기 2번
+2024-09-02 20:12:23 [Test worker] INFO  c.h.w.service.WeatherService - Method getWeatherByDate() started with date: 2024-10-10
+2024-09-02 20:12:23 [Test worker] INFO  c.h.w.service.DiaryService - Method edit() started with date: 2024-10-10, text: 수정된 일기
+2024-09-02 20:12:23 [Test worker] INFO  c.h.w.service.WeatherService - Method getWeatherByDate() started with date: 2024-10-10
+2024-09-02 20:12:23 [Test worker] INFO  c.h.w.service.DiaryService - Method searchDiariesByDate() started with date: 2024-10-10
+2024-09-02 20:12:23 [Test worker] INFO  c.h.w.service.WeatherService - Method getWeatherByDate() started with date: 2024-10-10
+2024-09-02 20:12:23 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-02 20:12:23 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-09-02 20:12:23 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-09-02 20:13:44 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.hayan.weatherdiary.service.DiaryServiceTest]: DiaryServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-09-02 20:13:44 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.hayan.weatherdiary.WeatherDiaryApplication for test class com.hayan.weatherdiary.service.DiaryServiceTest
+2024-09-02 20:13:44 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-09-02 20:13:44 [Test worker] INFO  c.h.w.service.DiaryServiceTest - Starting DiaryServiceTest using Java 17.0.7 with PID 13519 (started by chowhite in /Users/chowhite/coding/zerobase/weather_diary)
+2024-09-02 20:13:44 [Test worker] INFO  c.h.w.service.DiaryServiceTest - The following 2 profiles are active: "test", "default"
+2024-09-02 20:13:44 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-02 20:13:44 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18 ms. Found 2 JPA repository interfaces.
+2024-09-02 20:13:45 [Test worker] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=1eb6d430-0a60-3fb5-b1ae-85f327c07968
+2024-09-02 20:13:45 [Test worker] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-02 20:13:45 [Test worker] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-02 20:13:45 [Test worker] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-09-02 20:13:45 [Test worker] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-02 20:13:45 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-09-02 20:13:45 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@56a9b662
+2024-09-02 20:13:45 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-09-02 20:13:45 [Test worker] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(12, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@3da61af2) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@7852ab30)
+2024-09-02 20:13:45 [Test worker] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(-9, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@417751d3) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@5bf4dfb)
+2024-09-02 20:13:45 [Test worker] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(-3, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@8c3b634) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@65259737)
+2024-09-02 20:13:45 [Test worker] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(4003, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@1e27bb89) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@6108fd23)
+2024-09-02 20:13:45 [Test worker] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(4001, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@746f8520) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@3d3a28b5)
+2024-09-02 20:13:45 [Test worker] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(4002, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@1ee22768) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@38a52072)
+2024-09-02 20:13:45 [Test worker] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(2004, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@306bf4c3) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@5cf80dfb)
+2024-09-02 20:13:45 [Test worker] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(2005, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@532ea86b) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@4219a4cc)
+2024-09-02 20:13:45 [Test worker] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(2011, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@2dbb8da0) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@3130ca39)
+2024-09-02 20:13:46 [Test worker] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-02 20:13:46 [Test worker] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-02 20:13:46 [Test worker] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-02 20:13:46 [Test worker] INFO  c.h.w.service.DiaryServiceTest - Started DiaryServiceTest in 2.131 seconds (process running for 2.669)
+2024-09-02 20:13:46 [Test worker] INFO  c.h.w.service.DiaryService - Method edit() started with date: 2024-10-11, text: 수정된 일기
+2024-09-02 20:13:46 [Test worker] INFO  c.h.w.service.WeatherService - Method getWeatherByDate() started with date: 2024-10-11
+2024-09-02 20:13:47 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-02 20:13:47 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-09-02 20:13:47 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-09-02 20:13:59 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.hayan.weatherdiary.service.DiaryServiceTest]: DiaryServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-09-02 20:13:59 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.hayan.weatherdiary.WeatherDiaryApplication for test class com.hayan.weatherdiary.service.DiaryServiceTest
+2024-09-02 20:13:59 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-09-02 20:13:59 [Test worker] INFO  c.h.w.service.DiaryServiceTest - Starting DiaryServiceTest using Java 17.0.7 with PID 13547 (started by chowhite in /Users/chowhite/coding/zerobase/weather_diary)
+2024-09-02 20:13:59 [Test worker] INFO  c.h.w.service.DiaryServiceTest - The following 2 profiles are active: "test", "default"
+2024-09-02 20:13:59 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-02 20:13:59 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 17 ms. Found 2 JPA repository interfaces.
+2024-09-02 20:13:59 [Test worker] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=1eb6d430-0a60-3fb5-b1ae-85f327c07968
+2024-09-02 20:14:00 [Test worker] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-02 20:14:00 [Test worker] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-02 20:14:00 [Test worker] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-09-02 20:14:00 [Test worker] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-02 20:14:00 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-09-02 20:14:00 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2e91cf69
+2024-09-02 20:14:00 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-09-02 20:14:00 [Test worker] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(12, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@141229f6) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@723b8eff)
+2024-09-02 20:14:00 [Test worker] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(-9, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@3987a1e8) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@20d65767)
+2024-09-02 20:14:00 [Test worker] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(-3, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@250e8712) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@becb93a)
+2024-09-02 20:14:00 [Test worker] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(4003, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@f60c14e) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@1d1fd2aa)
+2024-09-02 20:14:00 [Test worker] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(4001, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@4c78e00c) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@22b3b5d0)
+2024-09-02 20:14:00 [Test worker] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(4002, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@2b506a79) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@48b9773b)
+2024-09-02 20:14:00 [Test worker] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(2004, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@43ca96a0) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@7c68a63c)
+2024-09-02 20:14:00 [Test worker] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(2005, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@5443086a) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@5740ad76)
+2024-09-02 20:14:00 [Test worker] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(2011, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@40a84ea8) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@79c849c7)
+2024-09-02 20:14:00 [Test worker] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-02 20:14:00 [Test worker] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-02 20:14:01 [Test worker] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-02 20:14:01 [Test worker] INFO  c.h.w.service.DiaryServiceTest - Started DiaryServiceTest in 2.264 seconds (process running for 2.788)
+2024-09-02 20:14:01 [Test worker] INFO  c.h.w.service.DiaryService - Method edit() started with date: 2024-10-10, text: 수정된 일기
+2024-09-02 20:14:01 [Test worker] INFO  c.h.w.service.WeatherService - Method getWeatherByDate() started with date: 2024-10-10
+2024-09-02 20:14:02 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-02 20:14:02 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-09-02 20:14:02 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-09-02 20:15:44 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.hayan.weatherdiary.service.DiaryServiceTest]: DiaryServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-09-02 20:15:44 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.hayan.weatherdiary.WeatherDiaryApplication for test class com.hayan.weatherdiary.service.DiaryServiceTest
+2024-09-02 20:15:44 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-09-02 20:15:44 [Test worker] INFO  c.h.w.service.DiaryServiceTest - Starting DiaryServiceTest using Java 17.0.7 with PID 13672 (started by chowhite in /Users/chowhite/coding/zerobase/weather_diary)
+2024-09-02 20:15:44 [Test worker] INFO  c.h.w.service.DiaryServiceTest - The following 2 profiles are active: "test", "default"
+2024-09-02 20:15:44 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-02 20:15:44 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 19 ms. Found 2 JPA repository interfaces.
+2024-09-02 20:15:44 [Test worker] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=1eb6d430-0a60-3fb5-b1ae-85f327c07968
+2024-09-02 20:15:44 [Test worker] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-02 20:15:44 [Test worker] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-02 20:15:44 [Test worker] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-09-02 20:15:45 [Test worker] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-02 20:15:45 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-09-02 20:15:45 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@56a9b662
+2024-09-02 20:15:45 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-09-02 20:15:45 [Test worker] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(12, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@3da61af2) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@7852ab30)
+2024-09-02 20:15:45 [Test worker] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(-9, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@417751d3) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@5bf4dfb)
+2024-09-02 20:15:45 [Test worker] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(-3, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@8c3b634) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@65259737)
+2024-09-02 20:15:45 [Test worker] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(4003, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@1e27bb89) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@6108fd23)
+2024-09-02 20:15:45 [Test worker] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(4001, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@746f8520) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@3d3a28b5)
+2024-09-02 20:15:45 [Test worker] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(4002, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@1ee22768) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@38a52072)
+2024-09-02 20:15:45 [Test worker] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(2004, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@306bf4c3) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@5cf80dfb)
+2024-09-02 20:15:45 [Test worker] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(2005, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@532ea86b) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@4219a4cc)
+2024-09-02 20:15:45 [Test worker] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(2011, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@2dbb8da0) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@3130ca39)
+2024-09-02 20:15:45 [Test worker] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-02 20:15:45 [Test worker] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-02 20:15:45 [Test worker] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-02 20:15:46 [Test worker] INFO  c.h.w.service.DiaryServiceTest - Started DiaryServiceTest in 2.198 seconds (process running for 2.738)
+2024-09-02 20:15:46 [Test worker] INFO  c.h.w.service.DiaryService - Method save() started with date: 2024-10-10, text: 일기 1번
+2024-09-02 20:15:46 [Test worker] INFO  c.h.w.service.WeatherService - Method getWeatherByDate() started with date: 2024-10-10
+2024-09-02 20:15:46 [Test worker] INFO  c.h.w.service.DiaryService - Method save() started with date: 2024-10-10, text: 일기 2번
+2024-09-02 20:15:46 [Test worker] INFO  c.h.w.service.WeatherService - Method getWeatherByDate() started with date: 2024-10-10
+2024-09-02 20:15:46 [Test worker] INFO  c.h.w.service.DiaryService - Method deleteDiariesByDate() started with date: 2024-10-10
+2024-09-02 20:15:46 [Test worker] INFO  c.h.w.service.WeatherService - Method getWeatherByDate() started with date: 2024-10-10
+2024-09-02 20:15:46 [Test worker] INFO  c.h.w.service.DiaryService - Method searchDiariesByDate() started with date: 2024-10-10
+2024-09-02 20:15:46 [Test worker] INFO  c.h.w.service.WeatherService - Method getWeatherByDate() started with date: 2024-10-10
+2024-09-02 20:15:46 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-02 20:15:46 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-09-02 20:15:46 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-09-02 20:16:15 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.hayan.weatherdiary.service.DiaryServiceTest]: DiaryServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-09-02 20:16:15 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.hayan.weatherdiary.WeatherDiaryApplication for test class com.hayan.weatherdiary.service.DiaryServiceTest
+2024-09-02 20:16:15 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-09-02 20:16:15 [Test worker] INFO  c.h.w.service.DiaryServiceTest - Starting DiaryServiceTest using Java 17.0.7 with PID 13716 (started by chowhite in /Users/chowhite/coding/zerobase/weather_diary)
+2024-09-02 20:16:15 [Test worker] INFO  c.h.w.service.DiaryServiceTest - The following 2 profiles are active: "test", "default"
+2024-09-02 20:16:16 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-02 20:16:16 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18 ms. Found 2 JPA repository interfaces.
+2024-09-02 20:16:16 [Test worker] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=1eb6d430-0a60-3fb5-b1ae-85f327c07968
+2024-09-02 20:16:16 [Test worker] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-02 20:16:16 [Test worker] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-02 20:16:16 [Test worker] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-09-02 20:16:16 [Test worker] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-02 20:16:16 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-09-02 20:16:16 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@da9374c
+2024-09-02 20:16:16 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-09-02 20:16:16 [Test worker] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(12, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@49bc71b4) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@7efa366)
+2024-09-02 20:16:16 [Test worker] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(-9, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@6c2f8ecb) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@c3d4bd7)
+2024-09-02 20:16:16 [Test worker] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(-3, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@2626aa35) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@5ca8c904)
+2024-09-02 20:16:16 [Test worker] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(4003, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@4c614d8c) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@2ae4c424)
+2024-09-02 20:16:16 [Test worker] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(4001, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@3980b44f) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@237aba92)
+2024-09-02 20:16:16 [Test worker] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(4002, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@65b19e5c) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@6978a32a)
+2024-09-02 20:16:16 [Test worker] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(2004, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@55665086) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@233ece92)
+2024-09-02 20:16:16 [Test worker] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(2005, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@4a14f7d7) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@66596c4c)
+2024-09-02 20:16:16 [Test worker] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(2011, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@15ce261) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@54c3e686)
+2024-09-02 20:16:17 [Test worker] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-02 20:16:17 [Test worker] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-02 20:16:17 [Test worker] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-02 20:16:17 [Test worker] INFO  c.h.w.service.DiaryServiceTest - Started DiaryServiceTest in 2.108 seconds (process running for 2.649)
+2024-09-02 20:16:18 [Test worker] INFO  c.h.w.service.DiaryService - Method edit() started with date: 2024-10-10, text: 수정된 일기
+2024-09-02 20:16:18 [Test worker] INFO  c.h.w.service.WeatherService - Method getWeatherByDate() started with date: 2024-10-10
+2024-09-02 20:16:18 [Test worker] INFO  c.h.w.service.DiaryService - Method save() started with date: 2024-10-10, text: 오늘의 일기 ~~~
+2024-09-02 20:16:18 [Test worker] INFO  c.h.w.service.WeatherService - Method getWeatherByDate() started with date: 2024-10-10
+2024-09-02 20:16:18 [Test worker] INFO  c.h.w.service.DiaryService - Method save() started with date: 2024-10-10, text: 일기 1번
+2024-09-02 20:16:18 [Test worker] INFO  c.h.w.service.WeatherService - Method getWeatherByDate() started with date: 2024-10-10
+2024-09-02 20:16:18 [Test worker] INFO  c.h.w.service.DiaryService - Method save() started with date: 2024-10-10, text: 일기 2번
+2024-09-02 20:16:18 [Test worker] INFO  c.h.w.service.WeatherService - Method getWeatherByDate() started with date: 2024-10-10
+2024-09-02 20:16:18 [Test worker] INFO  c.h.w.service.DiaryService - Method edit() started with date: 2024-10-10, text: 수정된 일기
+2024-09-02 20:16:18 [Test worker] INFO  c.h.w.service.WeatherService - Method getWeatherByDate() started with date: 2024-10-10
+2024-09-02 20:16:18 [Test worker] INFO  c.h.w.service.DiaryService - Method searchDiariesByDate() started with date: 2024-10-10
+2024-09-02 20:16:18 [Test worker] INFO  c.h.w.service.WeatherService - Method getWeatherByDate() started with date: 2024-10-10
+2024-09-02 20:16:18 [Test worker] INFO  c.h.w.service.DiaryService - Method save() started with date: 2024-10-11, text: 오늘의 일기 ~~~
+2024-09-02 20:16:18 [Test worker] INFO  c.h.w.service.WeatherService - Method getWeatherByDate() started with date: 2024-10-11
+2024-09-02 20:16:18 [Test worker] INFO  c.h.w.service.DiaryService - Method save() started with date: 2024-10-10, text: 일기 1번
+2024-09-02 20:16:18 [Test worker] INFO  c.h.w.service.WeatherService - Method getWeatherByDate() started with date: 2024-10-10
+2024-09-02 20:16:18 [Test worker] INFO  c.h.w.service.DiaryService - Method save() started with date: 2024-10-10, text: 일기 2번
+2024-09-02 20:16:18 [Test worker] INFO  c.h.w.service.WeatherService - Method getWeatherByDate() started with date: 2024-10-10
+2024-09-02 20:16:18 [Test worker] INFO  c.h.w.service.DiaryService - Method deleteDiariesByDate() started with date: 2024-10-10
+2024-09-02 20:16:18 [Test worker] INFO  c.h.w.service.WeatherService - Method getWeatherByDate() started with date: 2024-10-10
+2024-09-02 20:16:18 [Test worker] INFO  c.h.w.service.DiaryService - Method searchDiariesByDate() started with date: 2024-10-10
+2024-09-02 20:16:18 [Test worker] INFO  c.h.w.service.WeatherService - Method getWeatherByDate() started with date: 2024-10-10
+2024-09-02 20:16:18 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-02 20:16:18 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-09-02 20:16:18 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-09-02 20:21:56 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.hayan.weatherdiary.service.DiaryServiceTest]: DiaryServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-09-02 20:21:56 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.hayan.weatherdiary.WeatherDiaryApplication for test class com.hayan.weatherdiary.service.DiaryServiceTest
+2024-09-02 20:21:57 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-09-02 20:21:57 [Test worker] INFO  c.h.w.service.DiaryServiceTest - Starting DiaryServiceTest using Java 17.0.7 with PID 14202 (started by chowhite in /Users/chowhite/coding/zerobase/weather_diary)
+2024-09-02 20:21:57 [Test worker] INFO  c.h.w.service.DiaryServiceTest - The following 2 profiles are active: "test", "default"
+2024-09-02 20:21:57 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-02 20:21:57 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16 ms. Found 2 JPA repository interfaces.
+2024-09-02 20:21:57 [Test worker] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=1eb6d430-0a60-3fb5-b1ae-85f327c07968
+2024-09-02 20:21:57 [Test worker] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-02 20:21:57 [Test worker] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-02 20:21:57 [Test worker] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-09-02 20:21:57 [Test worker] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-02 20:21:57 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-09-02 20:21:58 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2e91cf69
+2024-09-02 20:21:58 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-09-02 20:21:58 [Test worker] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(12, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@141229f6) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@723b8eff)
+2024-09-02 20:21:58 [Test worker] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(-9, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@3987a1e8) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@20d65767)
+2024-09-02 20:21:58 [Test worker] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(-3, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@250e8712) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@becb93a)
+2024-09-02 20:21:58 [Test worker] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(4003, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@f60c14e) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@1d1fd2aa)
+2024-09-02 20:21:58 [Test worker] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(4001, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@4c78e00c) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@22b3b5d0)
+2024-09-02 20:21:58 [Test worker] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(4002, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@2b506a79) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@48b9773b)
+2024-09-02 20:21:58 [Test worker] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(2004, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@43ca96a0) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@7c68a63c)
+2024-09-02 20:21:58 [Test worker] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(2005, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@5443086a) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@5740ad76)
+2024-09-02 20:21:58 [Test worker] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(2011, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@40a84ea8) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@79c849c7)
+2024-09-02 20:21:58 [Test worker] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-02 20:21:58 [Test worker] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-02 20:21:58 [Test worker] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-02 20:21:59 [Test worker] INFO  c.h.w.service.DiaryServiceTest - Started DiaryServiceTest in 2.106 seconds (process running for 2.644)
+2024-09-02 20:21:59 [Test worker] INFO  c.h.w.service.DiaryService - Method edit() started with date: 2024-10-10, text: 수정된 일기
+2024-09-02 20:21:59 [Test worker] INFO  c.h.w.service.WeatherService - Method getWeatherByDate() started with date: 2024-10-10
+2024-09-02 20:21:59 [Test worker] INFO  c.h.w.service.DiaryService - Method save() started with date: 2024-10-10, text: 오늘의 일기 ~~~
+2024-09-02 20:21:59 [Test worker] INFO  c.h.w.service.WeatherService - Method getWeatherByDate() started with date: 2024-10-10
+2024-09-02 20:21:59 [Test worker] INFO  c.h.w.service.DiaryService - Method save() started with date: 2024-10-10, text: 일기 1번
+2024-09-02 20:21:59 [Test worker] INFO  c.h.w.service.WeatherService - Method getWeatherByDate() started with date: 2024-10-10
+2024-09-02 20:21:59 [Test worker] INFO  c.h.w.service.DiaryService - Method save() started with date: 2024-10-10, text: 일기 2번
+2024-09-02 20:21:59 [Test worker] INFO  c.h.w.service.WeatherService - Method getWeatherByDate() started with date: 2024-10-10
+2024-09-02 20:21:59 [Test worker] INFO  c.h.w.service.DiaryService - Method edit() started with date: 2024-10-10, text: 수정된 일기
+2024-09-02 20:21:59 [Test worker] INFO  c.h.w.service.WeatherService - Method getWeatherByDate() started with date: 2024-10-10
+2024-09-02 20:21:59 [Test worker] INFO  c.h.w.service.DiaryService - Method searchDiariesByDate() started with date: 2024-10-10
+2024-09-02 20:21:59 [Test worker] INFO  c.h.w.service.WeatherService - Method getWeatherByDate() started with date: 2024-10-10
+2024-09-02 20:21:59 [Test worker] INFO  c.h.w.service.DiaryService - Method save() started with date: 2024-10-11, text: 오늘의 일기 ~~~
+2024-09-02 20:21:59 [Test worker] INFO  c.h.w.service.WeatherService - Method getWeatherByDate() started with date: 2024-10-11
+2024-09-02 20:21:59 [Test worker] INFO  c.h.w.service.DiaryService - Method save() started with date: 2024-10-10, text: 일기 1번
+2024-09-02 20:21:59 [Test worker] INFO  c.h.w.service.WeatherService - Method getWeatherByDate() started with date: 2024-10-10
+2024-09-02 20:21:59 [Test worker] INFO  c.h.w.service.DiaryService - Method save() started with date: 2024-10-10, text: 일기 2번
+2024-09-02 20:21:59 [Test worker] INFO  c.h.w.service.WeatherService - Method getWeatherByDate() started with date: 2024-10-10
+2024-09-02 20:21:59 [Test worker] INFO  c.h.w.service.DiaryService - Method deleteDiariesByDate() started with date: 2024-10-10
+2024-09-02 20:21:59 [Test worker] INFO  c.h.w.service.WeatherService - Method getWeatherByDate() started with date: 2024-10-10
+2024-09-02 20:21:59 [Test worker] INFO  c.h.w.service.DiaryService - Method searchDiariesByDate() started with date: 2024-10-10
+2024-09-02 20:21:59 [Test worker] INFO  c.h.w.service.WeatherService - Method getWeatherByDate() started with date: 2024-10-10
+2024-09-02 20:21:59 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-02 20:21:59 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-09-02 20:21:59 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-09-02 20:22:13 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-09-02 20:22:13 [main] INFO  c.h.w.WeatherDiaryApplication - Starting WeatherDiaryApplication using Java 17.0.7 with PID 14228 (/Users/chowhite/coding/zerobase/weather_diary/build/classes/java/main started by chowhite in /Users/chowhite/coding/zerobase/weather_diary)
+2024-09-02 20:22:13 [main] INFO  c.h.w.WeatherDiaryApplication - The following 2 profiles are active: "test", "default"
+2024-09-02 20:22:13 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-02 20:22:13 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15 ms. Found 2 JPA repository interfaces.
+2024-09-02 20:22:13 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=654b2159-c0ee-3cbb-a489-918cf46c08e9
+2024-09-02 20:22:14 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-09-02 20:22:14 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-02 20:22:14 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-09-02 20:22:14 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-02 20:22:14 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-09-02 20:22:14 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 643 ms
+2024-09-02 20:22:14 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-02 20:22:14 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-02 20:22:14 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-09-02 20:22:14 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-02 20:22:14 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-09-02 20:22:14 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2aac6fa7
+2024-09-02 20:22:14 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-09-02 20:22:14 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(12, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@64d53f0d) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@1b10f60e)
+2024-09-02 20:22:14 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(-9, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@4b916cc2) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@7f5e9949)
+2024-09-02 20:22:14 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(-3, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@323eecf8) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@2e02cc37)
+2024-09-02 20:22:14 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(4003, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@6e355249) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@652a1a17)
+2024-09-02 20:22:14 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(4001, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@20b67366) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@186d6033)
+2024-09-02 20:22:14 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(4002, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@5c0ece6d) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@69419d59)
+2024-09-02 20:22:14 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(2004, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@7affee54) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@96075c0)
+2024-09-02 20:22:14 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(2005, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@2337bf27) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@4679554d)
+2024-09-02 20:22:14 [main] DEBUG o.h.t.d.sql.spi.DdlTypeRegistry - addDescriptor(2011, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@43719e98) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@49353d43)
+2024-09-02 20:22:15 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-02 20:22:15 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-02 20:22:15 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-02 20:22:15 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-09-02 20:22:15 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-09-02 20:22:15 [main] INFO  c.h.w.WeatherDiaryApplication - Started WeatherDiaryApplication in 2.162 seconds (process running for 2.468)
+2024-09-02 20:22:23 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-02 20:22:23 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-09-02 20:22:23 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-09-02 20:22:23 [http-nio-8080-exec-2] INFO  c.h.w.service.WeatherService - Method save() started
+2024-09-02 20:22:23 [http-nio-8080-exec-2] INFO  c.h.w.service.WeatherService - Method jsonToWeather() started with jsonWeather: {"coord":{"lon":126.9778,"lat":37.5683},"weather":[{"id":804,"main":"Clouds","description":"온흐림","icon":"04n"}],"base":"stations","main":{"temp":298.81,"feels_like":299.76,"temp_min":297.84,"temp_max":298.81,"pressure":1011,"humidity":89,"sea_level":1011,"grnd_level":1004},"visibility":10000,"wind":{"speed":2.29,"deg":58,"gust":7.38},"clouds":{"all":100},"dt":1725275561,"sys":{"type":1,"id":5509,"country":"KR","sunrise":1725224597,"sunset":1725271244},"timezone":32400,"id":1835848,"name":"Seoul","cod":200}
+2024-09-02 20:22:40 [http-nio-8080-exec-3] INFO  c.h.w.service.DiaryService - Method save() started with date: 2024-09-02, text: 일기 프로젝트 끗 ~~
+2024-09-02 20:22:40 [http-nio-8080-exec-3] INFO  c.h.w.service.WeatherService - Method getWeatherByDate() started with date: 2024-09-02
+2024-09-02 20:22:46 [http-nio-8080-exec-4] INFO  c.h.w.service.DiaryService - Method searchDiariesByDate() started with date: 2024-09-02
+2024-09-02 20:22:46 [http-nio-8080-exec-4] INFO  c.h.w.service.WeatherService - Method getWeatherByDate() started with date: 2024-09-02
+2024-09-02 20:22:51 [http-nio-8080-exec-5] INFO  c.h.w.service.DiaryService - Method searchDiariesByDate() started with date: 2024-09-01
+2024-09-02 20:22:51 [http-nio-8080-exec-5] INFO  c.h.w.service.WeatherService - Method getWeatherByDate() started with date: 2024-09-01
+2024-09-02 20:22:51 [http-nio-8080-exec-5] WARN  c.h.w.e.GlobalExceptionHandler - CustomException Occurred: 해당 날짜의 날씨를 찾을 수 없습니다.
+2024-09-02 20:22:53 [http-nio-8080-exec-6] INFO  c.h.w.service.DiaryService - Method searchDiariesByDate() started with date: 2024-09-02
+2024-09-02 20:22:53 [http-nio-8080-exec-6] INFO  c.h.w.service.WeatherService - Method getWeatherByDate() started with date: 2024-09-02
+2024-09-02 20:22:58 [http-nio-8080-exec-7] INFO  c.h.w.service.DiaryService - Method searchDiariesByDateRange() started with startDate: 2024-09-01, endDate: 2024-09-02
+2024-09-02 20:22:58 [http-nio-8080-exec-7] INFO  c.h.w.service.WeatherService - Method getWeathersByDateRange() started with startDate: 2024-09-01, endDate: 2024-09-02
+2024-09-02 20:24:28 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-02 20:24:28 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-09-02 20:24:28 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
